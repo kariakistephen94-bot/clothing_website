@@ -59,14 +59,12 @@ export default function ProductCard({ product }: { product: Product }) {
       </div>
 
       {/* Meta */}
-      <div className="flex items-start justify-between gap-3 pt-4">
-        <div>
-          <p className="eyebrow mb-1 text-muted">{product.category}</p>
-          <h3 className="text-[0.95rem] font-medium text-charcoal transition-colors group-hover:text-champagne">
-            {product.name}
-          </h3>
-        </div>
-        <p className="whitespace-nowrap pt-[1.1rem] text-[0.95rem] font-medium text-charcoal">
+      <div className="pt-4">
+        <p className="eyebrow mb-1 text-muted">{product.category}</p>
+        <h3 className="text-[0.95rem] font-medium leading-snug text-charcoal transition-colors group-hover:text-champagne">
+          {product.name}
+        </h3>
+        <p className="mt-1.5 text-[0.95rem] font-medium text-charcoal">
           {formatPrice(product.price)}
         </p>
       </div>

@@ -100,8 +100,8 @@ export default function ProductDetail({ product }: { product: Product }) {
 
       {/* Quantity + Add */}
       <Reveal y={20} delay={0.15}>
-        <div className="mt-9 flex gap-3">
-          <div className="flex items-center border border-stone">
+        <div className="mt-9 flex flex-col gap-3 sm:flex-row">
+          <div className="flex h-14 items-center justify-between self-start border border-stone sm:h-auto sm:justify-start">
             <button
               type="button"
               aria-label="Decrease quantity"
@@ -125,7 +125,7 @@ export default function ProductDetail({ product }: { product: Product }) {
             type="button"
             onClick={handleAdd}
             whileTap={{ scale: 0.98 }}
-            className="relative flex flex-1 items-center justify-center overflow-hidden rounded-full bg-charcoal py-4 text-[0.78rem] font-semibold tracking-luxe text-ivory uppercase transition-colors hover:bg-champagne hover:text-charcoal"
+            className="relative flex w-full items-center justify-center overflow-hidden whitespace-nowrap rounded-full bg-charcoal py-4 text-[0.78rem] font-semibold tracking-luxe text-ivory uppercase transition-colors hover:bg-champagne hover:text-charcoal sm:flex-1"
           >
             <AnimatePresence mode="wait" initial={false}>
               {added ? (

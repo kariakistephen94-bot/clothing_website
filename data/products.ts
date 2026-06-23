@@ -41,7 +41,7 @@ export const products: Product[] = [
     name: "Silk Evening Dress",
     category: "Dresses",
     gender: "women",
-    price: 2350000,
+    price: 85000,
     tagline: "Fluid silk that moves like light.",
     description:
       "Cut from a single weight of mulberry silk, the Evening Dress falls in an uninterrupted line from shoulder to hem. A bias drape catches the light with every movement — engineered to feel weightless, designed to be remembered.",
@@ -70,7 +70,7 @@ export const products: Product[] = [
     name: "Minimal Linen Blazer",
     category: "Outerwear",
     gender: "women",
-    price: 1450000,
+    price: 58000,
     tagline: "Structure, softened.",
     description:
       "A tailored blazer reimagined in breathable European linen. The shoulder is clean, the lapel is narrow, and the silhouette is relaxed enough to live in. Layer it over everything, season after season.",
@@ -98,7 +98,7 @@ export const products: Product[] = [
     name: "Cashmere Sweater",
     category: "Essentials",
     gender: "women",
-    price: 1020000,
+    price: 45000,
     tagline: "The quiet luxury of pure cashmere.",
     description:
       "Knitted from grade-A Mongolian cashmere, this sweater is the definition of understated indulgence. A relaxed crew neck and ribbed cuffs give it shape; the hand-feel does the rest.",
@@ -127,7 +127,7 @@ export const products: Product[] = [
     name: "Leather Handbag",
     category: "Accessories",
     gender: "women",
-    price: 1880000,
+    price: 72000,
     tagline: "Crafted to be carried for a lifetime.",
     description:
       "A structured top-handle bag in full-grain Italian leather. Minimal hardware, hand-finished edges, and a suede-lined interior — an object that ages beautifully and outlasts the season.",
@@ -157,7 +157,7 @@ export const products: Product[] = [
     name: "Italian Wool Jacket",
     category: "Jackets",
     gender: "men",
-    price: 2620000,
+    price: 90000,
     tagline: "Tailoring with a soul.",
     description:
       "A soft-shouldered jacket woven from Italian virgin wool. Built with a half-canvas chest for natural movement, it bridges the gap between the boardroom and the evening — effortlessly.",
@@ -185,7 +185,7 @@ export const products: Product[] = [
     name: "Premium Cotton Shirt",
     category: "Shirts",
     gender: "men",
-    price: 510000,
+    price: 18000,
     tagline: "The white shirt, perfected.",
     description:
       "Tailored from two-ply Egyptian cotton with a subtle sheen, this shirt holds its crispness through the day. Mother-of-pearl buttons and a clean spread collar complete the essential.",
@@ -214,7 +214,7 @@ export const products: Product[] = [
     name: "Tailored Trousers",
     category: "Essentials",
     gender: "men",
-    price: 760000,
+    price: 32000,
     tagline: "A clean line, from waist to hem.",
     description:
       "Pleated trousers in a refined wool blend, cut with a tapered leg and a comfortable mid-rise. Designed to dress up with tailoring or down with knitwear — without compromise.",
@@ -243,7 +243,7 @@ export const products: Product[] = [
     name: "Luxury Sneakers",
     category: "Casual Wear",
     gender: "men",
-    price: 860000,
+    price: 38000,
     tagline: "Quiet footwear for considered steps.",
     description:
       "A minimalist low-top built from full-grain Italian leather on a hand-stitched margom sole. No logos, no noise — just clean lines and exceptional comfort.",
@@ -329,7 +329,7 @@ export const collections: Collection[] = [
   },
 ];
 
-export const HERO_IMAGE = img("1531123897727-8f129e1688ce", 2000);
+export const HERO_IMAGE = img("1618244972963-dbee1a7edc95", 2000);
 export const STORY_IMAGE = img("1558769132-cb1aea458c5e", 1600);
 
 export function getProductById(id: string): Product | undefined {

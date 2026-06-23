@@ -98,8 +98,7 @@ export default function CartDrawer() {
                       <Link
                         href={`/products/${item.product.id}`}
                         onClick={closeCart}
-                        className="relative h-28 w-22 shrink-0 overflow-hidden bg-stone"
-                        style={{ width: "5.5rem" }}
+                        className="relative aspect-[4/5] w-20 shrink-0 overflow-hidden bg-stone"
                       >
                         <Image
                           src={item.product.images[0]}
